@@ -198,5 +198,5 @@ O projeto atendeu aos requisitos propostos pela disciplina, demonstrando conheci
 
 Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas
 
-2025
+2023 - 2026
 

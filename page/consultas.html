@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Consultas</title>
+
+    <link rel="stylesheet" href="../style.css">
+
+</head>
+
+<body>
+
+    <nav class="menu">
+
+        <a href="dashboard.html">Dashboard</a>
+
+        <a href="pacientes.html">Pacientes</a>
+
+        <a href="consultas.html">Consultas</a>
+
+    </nav>
+
+    <div class="dashboard">
+
+        <h1>Agendamento de Consultas</h1>
+
+        <div class="login-box">
+
+            <input
+            type="text"
+            id="paciente"
+            placeholder="Nome do paciente">
+
+            <input
+            type="date"
+            id="data">
+
+            <input
+            type="time"
+            id="hora">
+
+            <select id="medico">
+
+                <option value="">
+                    Selecione o médico
+                </option>
+
+                <option>
+                    Dr. Carlos
+                </option>
+
+                <option>
+                    Dra. Ana
+                </option>
+
+                <option>
+                    Dr. João
+                </option>
+
+            </select>
+
+            <button id="btnAgendar">
+
+                Agendar Consulta
+
+            </button>
+
+        </div>
+    <div class="lista-box">
+        <h2>Consultas Marcadas</h2>
+        <p class="vazia">Nenhuma consulta agendada.</p>
+        <ul id="listaConsultas"></ul>
+        
+    </div>
+
+
+    <script src="../js/consultas.js"></script>
+
+</body>
+
+</html>
